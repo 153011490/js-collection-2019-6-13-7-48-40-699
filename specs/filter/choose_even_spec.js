@@ -8,7 +8,6 @@ describe('choose_even', function() {
 
   it('choose_even', function() {
     var result = choose_even(collection);
-
     expect(result).toEqual([0, 2, 4, 6]);
   })
 });
